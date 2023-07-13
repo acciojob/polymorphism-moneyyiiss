@@ -1,5 +1,6 @@
 package com.driver;
 
+//Task1
 class Product{
     public int product(int x, int y) {
         return x + y;
@@ -15,12 +16,18 @@ class Product{
 public class Main {
     
     public static void main(String[] args) {
+//Task2
         Product p = new Product();
-        int ans1 = p.product(2, 3);
-        int ans2 = p.product(2, 3, 4);
-        double ans3 = p.product(2.5, 2.6);
-        System.out.println(ans1);
-        System.out.println(ans2);
-        System.out.println(ans3);
+        //Task3
+        int result1  = p.product(2, 3);
+        System.out.println(result1);
+        //Task4
+        int result2  = p.product(2, 3, 4);
+        System.out.println(result2);
+        //Task5
+        double result3  = p.product(2.5, 2.6);
+        System.out.println(result3);
+        
+        
     }
 }
